@@ -116,7 +116,7 @@ export async function updateUser(req,res){
             })
             return
         }
-        
+        //add extra try-catch block to handle errors
     } catch (error) {
         res.status(500).json({
             message : "failed to update product"
