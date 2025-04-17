@@ -44,7 +44,7 @@ class StockController {
     }
   };
 
-  //Update Stock
+  //Update
   update = async (req, res) => {
     try {
       const { id, brand, model, quatity } = req.body;
