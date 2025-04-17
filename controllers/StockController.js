@@ -56,7 +56,7 @@ class StockController {
       const updatedData = await Stock.findByIdAndUpdate(id, req.body, {
         new: true,
       });
-      res.status(200).json({ msg: "Stock updated successfully" });
+      res.status(200).json({ msg: "Stock updated sucsdd" });
     } catch (error) {
       res.status(500).json({ error: error });
     }
