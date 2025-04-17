@@ -33,6 +33,7 @@ export function addProduct(req,res){
     });
 }
 
+//retrive all
 export async function getProducts(req,res){
 
     try{
@@ -53,6 +54,7 @@ export async function getProducts(req,res){
     }
 }
 
+//update Events
 export async function updateProduct(req,res){
     try {
         if(isItAdmin(req)){ 

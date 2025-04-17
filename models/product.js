@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+//start product model
+
 const productSchema = new mongoose.Schema({
 
     key :{
